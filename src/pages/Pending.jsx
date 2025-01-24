@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import Nav from "../components/Nav"
-import ReviewContext from "../contexts/ReviewContext";
+import ReviewContext, { useReviewContext } from "../contexts/ReviewContext";
 
 const Pending=()=>{
-    const {initialItems}=useContext(ReviewContext)
+    const {initialItems}=useReviewContext()
 return(
     <>
     <Nav/>
