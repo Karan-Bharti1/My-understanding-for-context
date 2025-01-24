@@ -3,15 +3,19 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css'
 import Nav from './components/Nav'
 
-function App() {
+function Reporting() {
 
 
   return (
     <>
       <Nav/>
       <hr/>
+      <main className='container'>
+      <h1>status</h1>
+      </main>
+      
     </>
   )
 }
 
-export default App
+export default Reporting
